@@ -10,19 +10,9 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class StockManageFormController {
+public class UserFormController {
     @FXML
     private AnchorPane P1;
-
-    @FXML
-    void Alert(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/AlertForm.fxml"));
-        Scene scene = new Scene(parent);
-        Stage stage = (Stage) this.P1.getScene().getWindow();
-        stage.setTitle("Register Page");
-        stage.setScene(scene);
-    }
-
     @FXML
     void DB(ActionEvent event) throws IOException {
         Parent parent = FXMLLoader.load(this.getClass().getResource("/View/DashbordForm.fxml"));
@@ -33,26 +23,22 @@ public class StockManageFormController {
     }
 
     @FXML
-    void Upload(ActionEvent event) throws IOException {
-
-    }
-
-    @FXML
-    void User(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/UserForm.fxml"));
-        Scene scene = new Scene(parent);
-        Stage stage = (Stage) this.P1.getScene().getWindow();
-        stage.setTitle("Register Page");
-        stage.setScene(scene);
-    }
-
-    @FXML
-    void reg(ActionEvent event) throws IOException {
+    void Reg(ActionEvent event) throws IOException {
         Parent parent = FXMLLoader.load(this.getClass().getResource("/View/RegisterForm.fxml"));
         Scene scene = new Scene(parent);
         Stage stage = (Stage) this.P1.getScene().getWindow();
         stage.setTitle("Register Page");
         stage.setScene(scene);
+    }
+
+    @FXML
+    void alert(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/AlertForm.fxml"));
+        Scene scene = new Scene(parent);
+        Stage stage = (Stage) this.P1.getScene().getWindow();
+        stage.setTitle("Register Page");
+        stage.setScene(scene);
+
     }
 
     @FXML
@@ -62,5 +48,19 @@ public class StockManageFormController {
         Stage stage = (Stage) this.P1.getScene().getWindow();
         stage.setTitle("Register Page");
         stage.setScene(scene);
+    }
+
+    @FXML
+    void stock(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/StockManageForm.fxml"));
+        Scene scene = new Scene(parent);
+        Stage stage = (Stage) this.P1.getScene().getWindow();
+        stage.setTitle("Register Page");
+        stage.setScene(scene);
+    }
+
+    @FXML
+    void upload(ActionEvent event) {
+
     }
 }

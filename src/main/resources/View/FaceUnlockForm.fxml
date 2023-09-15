@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="607.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.FaceUnlockFormController">
    <children>
       <ImageView fitHeight="617.0" fitWidth="855.0" pickOnBounds="true" preserveRatio="true">
@@ -19,5 +18,6 @@
             <Font size="13.0" />
          </font>
       </Button>
+      <Button fx:id="btn1" layoutX="501.0" layoutY="441.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="278.0" style="-fx-background-color: #B8EEF8;" styleClass="user" stylesheets="@../Style/Button.css" text="Button" />
    </children>
 </AnchorPane>

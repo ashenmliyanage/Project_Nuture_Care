@@ -13,10 +13,12 @@ import java.io.IOException;
 public class FaceUnlockFormController {
     @FXML
     private Button back;
+    @FXML
+    private Button btn1;
 
     @FXML
-    void btnbackOnAction(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/LoginPageForm.fxml"));
+    void btnbackOnAction(ActionEvent event) throws IOException{
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/dashboardForm.fxml"));
         Scene scene = new Scene(parent);
         scene.getStylesheets().add(Launcher.class.getResource("/Style/LoginPage.css").toExternalForm());
         Stage stage = new Stage();
@@ -24,5 +26,8 @@ public class FaceUnlockFormController {
         stage.centerOnScreen();
         stage.setScene(scene);
         stage.show();
+
+        //btn1.setOnAction(e -> openCamera());
+
     }
 }

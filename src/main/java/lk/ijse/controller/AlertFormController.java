@@ -10,13 +10,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class StockManageFormController {
+public class AlertFormController {
     @FXML
     private AnchorPane P1;
-
     @FXML
-    void Alert(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/AlertForm.fxml"));
+    void DB(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/DashbordForm.fxml"));
         Scene scene = new Scene(parent);
         Stage stage = (Stage) this.P1.getScene().getWindow();
         stage.setTitle("Register Page");
@@ -24,8 +23,8 @@ public class StockManageFormController {
     }
 
     @FXML
-    void DB(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/DashbordForm.fxml"));
+    void Stock(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/View/StockManageForm.fxml"));
         Scene scene = new Scene(parent);
         Stage stage = (Stage) this.P1.getScene().getWindow();
         stage.setTitle("Register Page");

@@ -28,107 +28,57 @@
           <NumberAxis side="LEFT" />
         </yAxis>
       </AreaChart>
-      <ProgressBar fx:id="CofH" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="353.0" layoutY="73.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
-      <ProgressBar fx:id="CofH" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="352.0" layoutY="151.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
-      <ProgressBar fx:id="CofT" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="351.0" layoutY="232.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
-      <ProgressBar fx:id="CofW" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="353.0" layoutY="307.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
-      <ProgressBar layoutX="516.0" layoutY="479.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
-      <ProgressBar layoutX="554.0" layoutY="479.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
-      <ProgressBar layoutX="590.0" layoutY="479.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
+      <ProgressBar fx:id="CofHe" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="353.0" layoutY="70.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
+      <ProgressBar fx:id="CofH" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="352.0" layoutY="149.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
+      <ProgressBar fx:id="CofT" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="351.0" layoutY="230.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
+      <ProgressBar fx:id="CofW" cache="true" cacheHint="QUALITY" depthTest="DISABLE" layoutX="353.0" layoutY="305.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="9.0" prefWidth="115.0" progress="0.0" />
+      <ProgressBar fx:id="mon" layoutX="516.0" layoutY="478.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
+      <ProgressBar fx:id="tue" layoutX="554.0" layoutY="478.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
+      <ProgressBar fx:id="wen" layoutX="590.0" layoutY="478.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
       <Ellipse fill="WHITE" layoutX="816.0" layoutY="28.0" radiusX="30.0" radiusY="26.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <JFXButton layoutX="788.0" layoutY="5.0" minWidth="43.0" prefHeight="46.0" prefWidth="43.0" style="-fx-background-radius: 100; -fx-background-color: #D9D9D9;" text="B">
-         <graphic>
-            <ImageView fitHeight="38.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/ser.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </JFXButton>
-      <ProgressBar layoutX="624.0" layoutY="478.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
-      <ProgressBar fx:id="pro1" layoutX="657.0" layoutY="477.0" prefHeight="15.0" prefWidth="124.0" progress="1.0" rotate="270.0" stylesheets="@../Style/Dashbord.css" />
-      <ProgressBar layoutX="691.0" layoutY="476.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
-      <ProgressBar layoutX="723.0" layoutY="477.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
-      <AnchorPane layoutX="17.0" layoutY="170.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
-         <children>
-            <Label layoutX="46.0" layoutY="8.0" text="Register" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="9.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/Add%20User%20Male.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
+      <ProgressBar fx:id="thu" layoutX="624.0" layoutY="477.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
+      <ProgressBar fx:id="fri" layoutX="657.0" layoutY="476.0" prefHeight="15.0" prefWidth="124.0" progress="1.0" rotate="270.0" stylesheets="@../Style/Dashbord.css" />
+      <ProgressBar fx:id="sat" layoutX="691.0" layoutY="475.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
+      <ProgressBar fx:id="sun" layoutX="723.0" layoutY="476.0" prefHeight="15.0" prefWidth="124.0" progress="0.0" rotate="270.0" />
       <AnchorPane layoutX="15.0" layoutY="227.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
          <children>
-            <Label layoutX="46.0" layoutY="8.0" text="Report" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+            <Label layoutX="46.0" layoutY="8.0" text="    Report" />
+            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="21.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@asstes/Graph%20Report.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="18.0" layoutY="285.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
-         <children>
-            <Label layoutX="46.0" layoutY="8.0" text="Stock" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/Combo%20Chart.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="18.0" layoutY="341.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
-         <children>
-            <Label layoutX="46.0" layoutY="8.0" text="Upload" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/Upload%20to%20the%20Cloud.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="16.0" layoutY="399.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
-         <children>
-            <Label layoutX="47.0" layoutY="8.0" text="Alert" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="11.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/Urgent%20Message.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="16.0" layoutY="458.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
-         <children>
-            <Label layoutX="47.0" layoutY="9.0" text="User" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/Use1r.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="16.0" layoutY="459.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
-         <children>
-            <Label layoutX="47.0" layoutY="9.0" text="User" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/Use1r.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="18.0" layoutY="113.0" prefHeight="34.0" prefWidth="137.0" style="-fx-background-color: #EEE3D6; -fx-border-radius: 10; -fx-background-radius: 10;">
-         <children>
-            <Label layoutX="47.0" layoutY="9.0" text="Dashboard" />
-            <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@asstes/Control%20Panel.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
+      <ImageView fitHeight="23.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Combo%20Chart.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="DB1" layoutX="16.0" layoutY="111.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: white; -fx-background-radius: 10px;" stylesheets="@../Style/hoverPaneStyles.css" text="            Dashboard" />
+      <JFXButton fx:id="DB11" layoutX="16.0" layoutY="168.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: white; -fx-background-radius: 10px;" stylesheets="@../Style/hoverPaneStyles.css" text="        Register" />
+      <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="35.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Add%20User%20Male.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="36.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Control%20Panel.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="DB111" layoutX="17.0" layoutY="229.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: white; -fx-background-radius: 10px;" stylesheets="@../Style/hoverPaneStyles.css" text="      Report" />
+      <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="35.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Graph%20Report.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="DB1111" layoutX="16.0" layoutY="281.0" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: white; -fx-background-radius: 10px;" stylesheets="@../Style/hoverPaneStyles.css" text="      Stock" />
+      <ImageView fitHeight="23.0" fitWidth="20.0" layoutX="36.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asstes/Combo%20Chart.png" />
+         </image>
+      </ImageView>
 
    </children>
 </AnchorPane>
